@@ -1,0 +1,32 @@
+/*Removes default on the body-tag*/
+body{
+    margin:0;
+    padding:0;
+}
+section{
+  width: 1000px;
+  height: 1000px;
+  background-color: #B40431;
+}
+article{
+  height: 500px;
+}
+div.box{
+  width:auto;
+  height: inherit;
+  float: left;
+  border : 10px #38610B;
+  background-color: #5882FA;
+}
+div.left{
+  width: 25%;
+}
+div.right{
+  width:71%;
+}
+header, footer{
+  margin:0;
+  width: auto;
+  height: 20%;
+  border: 10px #38610B;
+}
